@@ -1,0 +1,61 @@
+.cart-link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-weight: bold;
+  }
+ /* Estilo del menú desplegable */
+.dropdown-menu {
+    background-color: #141414; /* Fondo negro */
+    border: none; /* Sin bordes */
+  }
+  
+  .dropdown-item {
+    color: white; /* Texto blanco */
+    padding: 10px 15px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de letra */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  header .dropdown-menu {
+    background-color: #141414 !important; /* Fondo negro */
+    border: none !important; /* Sin bordes */
+  }
+  
+  header .dropdown-item {
+    color: white !important; /* Texto blanco */
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  header .dropdown-item:hover {
+    background-color: #e50914 !important; /* Fondo rojo al pasar el cursor */
+    color: white !important; /* Texto blanco */
+  }
+  
+  header .dropdown-toggle {
+    background-color: #202020 !important; /* Fondo gris oscuro */
+    color: white !important; /* Texto blanco */
+    border: none !important; /* Sin bordes */
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  header .dropdown-toggle:hover {
+    background-color: #444 !important; /* Fondo gris más oscuro al pasar el cursor */
+    color: white !important;
+  }
+  

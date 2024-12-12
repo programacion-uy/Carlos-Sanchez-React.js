@@ -1,0 +1,22 @@
+:root {
+  --primary: #141414; /* Fondo negro */
+  --light: #f3f3f3;   /* Texto claro */
+  --dark: #686868;    /* Gris oscuro */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary); /* Fondo negro */
+  color: var(--light);              /* Texto claro */
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+.order-summary-page {
+  background-color: var(--primary); /* Fondo negro */
+  color: var(--light); /* Texto blanco */
+  min-height: 100vh; /* Asegura que cubra toda la pantalla */
+  padding: 20px;
+}

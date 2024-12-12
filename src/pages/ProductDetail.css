@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414; /* Fondo negro */
+    color: white; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Elimina el desplazamiento horizontal */
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .carousel {
+    max-width: 100%;
+  }
+  
+  .carousel-inner img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+  }
+  
+  .btn-group button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .container {
+    background-color: transparent; /* Fondo transparente para que tome el fondo negro global */
+    color: white; /* Texto blanco */
+  }
+  
+  .wrapper {
+    background-color: #141414; /* Fondo negro */
+    color: white; /* Texto blanco */
+    min-height: 100vh; /* Asegura que cubra toda la pantalla */
+  }
+  

@@ -1,0 +1,8 @@
+
+
+  .wrapper {
+    background-color: #141414; /* Fondo negro */
+    color: white; /* Texto blanco */
+    min-height: 100vh; /* Asegura que cubra toda la pantalla */
+  }
+  

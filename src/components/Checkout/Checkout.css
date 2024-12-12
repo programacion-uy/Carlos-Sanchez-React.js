@@ -1,0 +1,7 @@
+.checkout-page {
+    background-color: var(--primary); /* Fondo negro */
+    color: var(--light); /* Texto claro */
+    min-height: 100vh; /* Asegura que cubra toda la altura */
+    padding: 20px;
+  }
+  

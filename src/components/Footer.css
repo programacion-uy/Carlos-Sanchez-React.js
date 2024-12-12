@@ -1,0 +1,17 @@
+:root {
+  --primary: #141414;
+  --dark: #686868;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: var(--primary);
+  color: var(--dark);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 0;
+}
